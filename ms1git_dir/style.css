@@ -1,5 +1,6 @@
-/* General ------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat:wght@200;400&display=swap');
 
+/* General ------------------------*/
 
 img {
     width: 300px;
@@ -163,9 +164,52 @@ blockquote {
 }
 */
 
+
+/* images */
+
+img {
+    width: 300px;
+    margin: 10px;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    }
+#logo-img {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 15px 0;
+      overflow: auto;
+      float: left;
+      display: flex;
+      margin-top: -20px;
+  }
+
+
+#main-img {
+    text-align: center;
+    background-image: url(../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 700px;
+    margin-top: 96px;
+    margin-bottom: -18px;
+    width: 100%;
+    justify-content: center; 
+  
+  }
+
+ 
+.main-img p {
+    float: right;
+  }
+
+
+
+
 h1, h2, h3 {
-    font-family: 'Caveat', cursive;
-    font-weight: 400;
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
     margin: 0;
 }
 
@@ -175,7 +219,7 @@ h1 {
 }
 
 h2 {
-    font-size: 65px;
+    font-size: 35px;
 }
 
 h3 {
@@ -183,7 +227,7 @@ h3 {
 }
 
 .content-wrap {
-    max-width: 950px;
+    max-width: 1366px;
     margin: 0 auto;
     padding: 15px 0;
     overflow: auto;
@@ -202,12 +246,12 @@ header {
 
 header, footer {
     background-color: rgb(163,151,89);
-    color: lightpink;
+    color: #333;
 }
 
      /* Header ------------------------*/
 
-header h1, header h2 {
+/*header h1, header h2 {
     color: white;
     margin: 20px;
 }
@@ -215,11 +259,33 @@ header h1, header h2 {
      /* Footer ------------------------*/
 footer {
     text-align: center;
-    background-color: olive;
+    background-color: #789597;
     margin-right: 0;
 }
+
+footer ul {
+    width: 670px;
+    padding: 5px;
+    margin: 2px auto 2px auto;
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    margin: 0px 6px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: none;
+}
+
     
-.people-info {
+/* .people-info {
     list-style-type: none;
     padding: 0;
     display: flex;
@@ -227,14 +293,15 @@ footer {
     justify-content: center;        
 }
 
-.about-hairdresser {
+/*.about-hairdresser {
     padding: 15px;
     display: inline-block
 }
- 
+
+
     /* thehairhistory ------------------------*/
 
-.thehairhistory {
+/* .thehairhistory {
     background: lightpink;
     text-align: center;
     margin-top: 0px;
@@ -242,16 +309,18 @@ footer {
 
     /* hairstyles ------------------------*/
 
-.hairstyles {
+/* .hairstyles {
     background: rgb(134,165,139);
 }
 
     /* hairdressers ------------------------*/
 
-.hairdressers {
+/*.hairdressers {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
     background-color: skyblue;
 }
+*/
+
 
