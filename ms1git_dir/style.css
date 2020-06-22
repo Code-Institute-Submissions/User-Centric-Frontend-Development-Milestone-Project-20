@@ -1,59 +1,5 @@
-/* Nav/Header ------------------------*/
+/* General ------------------------*/
 
-.nav {
-    padding: 20px;
-    margin: 10px auto 10px auto;
-    padding: 10px 0px 0px 0px;
-    font-weight: normal;
-    text-decoration: none;
-}
-
-#navigation {
-    text-decoration: none;
-}
-#logo {
-    width: 670px;
-    margin: 10px auto 25px auto;
-    text-align: left;
-}
-
-ul {
-    width: 670px;
-    padding: 5px;
-    margin: 2px auto 2px auto;
-    text-align: center;
-}
-
-li {
-    display: inline;
-    margin: 0px 6px;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: crimson;
-    text-decoration: none;
-}
-
-.article-img {
-    width: 200px;
-    border-radius: 50%;
-    justify-items: center;
-    
-}
-
-img.align-right {
-    float: right;
-    margin-left: 10px;
-}
-
-img.align-left {
-    float: left;
-    margin-right: 10px;
-}
 
 img {
     width: 300px;
@@ -66,6 +12,144 @@ body {
     padding: 0;  
 }
 
+  /*  Recycle header */
+  
+  .header {
+    background-color: rgb(207, 213, 212);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+   
+  }
+  
+  .header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: rgb(207, 213, 212);
+  }
+  
+  .header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .header li a:hover,
+  .header .nav-btn:hover {
+    background-color: #f4f4f4;
+  }
+  
+  .header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 0px 0px;
+    text-decoration: none;
+    color: rgb(114, 186, 210);
+  }
+
+  /* nav */
+  
+  .header .nav-list {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+  
+  /* nav icon */
+  
+  .header .nav-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .nav-icon .nav-bar {
+    background: #333;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .nav-icon .nav-bar:before,
+  .header .nav-icon .nav-bar:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .nav-icon .nav-bar:before {
+    top: 5px;
+  }
+  
+  .header .nav-icon .nav-bar:after {
+    top: -5px;
+  }
+
+ 
+  /* nav btn */
+  
+  .header .nav-btn {
+    display: none;
+  }
+  
+  .header .nav-btn:checked ~ .nav-list {
+    max-height: 280px;
+  }
+  
+  .header .nav-btn:checked ~ .nav-icon .nav-list {
+    background: transparent;
+  }
+  
+  .header .nav-btn:checked ~ .nav-icon .nav-list:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .nav-btn:checked ~ .nav-icon .nav-list:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .nav-btn:checked ~ .nav-icon:not(.steps) .nav-list:before,
+  .header .nav-btn:checked ~ .nav-icon:not(.steps) .nav-list:after {
+    top: 0;
+  }
+  
+  /* 48em = 768px */
+  
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 20px 30px;
+    }
+    .header .nav-list {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .nav-icon {
+      display: none;
+    }
+  }
+
+
+
+
+/*
 blockquote {
     float: right;
     width: 275px;
@@ -77,7 +161,7 @@ blockquote {
     border-top: 1px solid blue;
     border-bottom: 1px solid blue;
 }
-
+*/
 
 h1, h2, h3 {
     font-family: 'Caveat', cursive;
