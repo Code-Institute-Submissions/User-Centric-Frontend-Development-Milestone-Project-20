@@ -196,8 +196,27 @@ img {
     margin-bottom: -18px;
     width: 100%;
     justify-content: center; 
-  
-  }
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ } 
+ #hero-sec {
+     height: 700px;
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+ }
+
+
+ @keyframes hero-zoom {
+   from {
+    transform: scale(1);
+   } 
+   to {
+    transform: scale(1.1);
+   } 
+ }
 
  
 .main-img p {
@@ -233,6 +252,93 @@ h3 {
     overflow: auto;
 }
 
+ /* testimonials */
+
+ .testimonials {
+    background-color: #7ccbd7;
+    margin: 0 auto 0 auto;
+    line-height: 1.65;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+ 
+  .comment {
+   padding: 20px;
+   flex-basis: 30%;
+   box-sizing: border-box;
+   padding-top: 0em;
+   margin-top: 5vh;
+ 
+  }
+ 
+  @media(min-width:900px) {
+    .testimonials {
+     display: flex;
+     justify-content: space-between;
+    
+    }
+   .main-tours {
+    display: flex;
+    justify-content: space-between;
+   
+   }
+ }
+ 
+ /* Service Promise */
+
+ .ser-prom-cont {
+     position: relative;
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: -255px;
+    
+ }
+
+ .ser-prom-cont .club-tours {
+     position: relative;
+     max-width: 960px;
+     text-align: center;
+     z-index: 1;
+
+ }
+
+ .ser-prom-cont .club-tours .ser-head p {
+     color: #1a0808;
+     font-size: 2em;
+     font-weight: 400;
+ }
+ 
+ 
+ .ser-prom-img {
+     position: absolute;
+     top: 0;
+     left: -0.5rem;
+     right: 1rem;
+     width: 100%;
+     height: 70%;
+     object-fit: cover;
+     opacity: 0.4; 
+ }
+
+ .ser-btn {
+     position: relative;
+     display: inline-block;
+     margin-top: 30px;
+     padding: 10px 30px;
+     background: #400c07;
+     text-decoration: none;
+ }
+
+ .ser-spn {
+     color: #fff;
+
+ }
+
     /* Header and footer ------------------------*/
 
 
@@ -261,6 +367,8 @@ footer {
     text-align: center;
     background-color: #789597;
     margin-right: 0;
+    height: 280px;
+
 }
 
 footer ul {
@@ -284,43 +392,5 @@ a:hover {
     text-decoration: none;
 }
 
-    
-/* .people-info {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    margin: 0px; 
-    justify-content: center;        
-}
-
-/*.about-hairdresser {
-    padding: 15px;
-    display: inline-block
-}
-
-
-    /* thehairhistory ------------------------*/
-
-/* .thehairhistory {
-    background: lightpink;
-    text-align: center;
-    margin-top: 0px;
-}
-
-    /* hairstyles ------------------------*/
-
-/* .hairstyles {
-    background: rgb(134,165,139);
-}
-
-    /* hairdressers ------------------------*/
-
-/*.hairdressers {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 20px;
-    background-color: skyblue;
-}
-*/
 
 
