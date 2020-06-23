@@ -108,7 +108,7 @@ body {
   }
   
   .header .nav-btn:checked ~ .nav-list {
-    max-height: 280px;
+    max-height: 290px;
   }
   
   .header .nav-btn:checked ~ .nav-icon .nav-list {
@@ -223,9 +223,6 @@ img {
     float: right;
   }
 
-
-
-
 h1, h2, h3 {
     font-family: 'Cormorant', serif;
     font-weight: 300;
@@ -296,6 +293,7 @@ h3 {
      justify-content: center;
      align-items: center;
      margin-bottom: -255px;
+     margin-top: -10px;
     
  }
 
@@ -388,7 +386,7 @@ a:visited {
 }
 
 a:hover {
-    color: crimson;
+    color: #400c07;
     text-decoration: none;
 }
 
