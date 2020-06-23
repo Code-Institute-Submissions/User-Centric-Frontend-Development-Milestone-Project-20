@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&family=Montserrat:wght@200;400&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0; 
+ }
+
 /* General ------------------------*/
 
 img {
@@ -128,7 +134,7 @@ body {
     top: 0;
   }
   
-  /* 48em = 768px */
+  /* Navigation media 48em = 768px */
   
   @media (min-width: 48em) {
     .header li {
@@ -145,35 +151,31 @@ body {
     .header .nav-icon {
       display: none;
     }
+    #main-img img {
+        width: 100%;
+        border: 1px solid rgb(207, 213, 212);
+      }
   }
 
-
-
-
-/*
-blockquote {
-    float: right;
-    width: 275px;
-    font-size: 130%;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0px 0px 10px 10px;
-    padding: 10px;
-    border-top: 1px solid blue;
-    border-bottom: 1px solid blue;
-}
-*/
-
+  @media screen and (max-width: 943px) {
+   
+    /*#main-img img {
+            width: 30%;
+        }*/
+         
+    }
 
 /* images */
 
-img {
+/*img {
     width: 300px;
     margin: 10px;
     justify-content: center;
     overflow: hidden;
     text-align: center;
     }
+
+*/
 #logo-img {
       max-width: 950px;
       margin: 0 auto;
@@ -269,19 +271,77 @@ h3 {
    margin-top: 5vh;
  
   }
- 
-  @media(min-width:900px) {
-    .testimonials {
-     display: flex;
-     justify-content: space-between;
+
+  /* Forms */
+
+.form-section {
+    clear: left;
+    background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back--B0mRhMJ7_Y-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    padding-left: -2vh;
+    margin: 0;
+    opacity: 1.9;
+  }
+
+  .signup-form {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(22, 21, 21, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 10px;
+    padding: 25px;
+    padding-right: 3em;
+    margin-right: 2em;
     
-    }
-   .main-tours {
-    display: flex;
-    justify-content: space-between;
-   
-   }
- }
+  }
+
+  
+  .signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  }
+  
+  .text-input{
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  }
+  .text-input:hover{
+  border-color: #400913;
+  }
+  
+  .join-button{
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #6ba612;
+  color: #fafafa;
+  display: block;
+  box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.6);
+  }
+  
+  .join-button:hover{
+  background-color: #400913;
+  color: #6ba612;
+  }
+
+  i {
+    color: #400913;
+    text-transform: uppercase;
+    letter-spacing: 38px;
+}
+
  
  /* Service Promise */
 
@@ -321,6 +381,8 @@ h3 {
      height: 70%;
      object-fit: cover;
      opacity: 0.4; 
+     display: absolute;
+     margin: -20px -15px -650px 7px;
  }
 
  .ser-btn {
@@ -359,13 +421,15 @@ header, footer {
     color: white;
     margin: 20px;
 }
-   
-     /* Footer ------------------------*/
+   /* Footer ------------------------*/
+     
 footer {
     text-align: center;
     background-color: #789597;
     margin-right: 0;
     height: 280px;
+    padding-top: 0px;
+    margin-top: -3em;
 
 }
 
@@ -391,4 +455,35 @@ a:hover {
 }
 
 
+/* Media Q ------------------------*/
 
+@media screen and (max-width: 1366px ) {
+    #main-img {
+        column-count:2;
+        width: 100%;
+        height: 550px;
+        } 
+
+} 
+
+ 
+@media(min-width:943px) {
+    .testimonials {
+     display: flex;
+     justify-content: space-between;
+    
+    }
+   .main-tours {
+    display: flex;
+    justify-content: space-between;
+   
+   }
+   #main-img {
+    column-count:2;
+    }
+    footer {
+        padding-top: 0px;
+        margin-top: -3em;
+    
+    }
+ }

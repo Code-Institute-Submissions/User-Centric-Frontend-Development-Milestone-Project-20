@@ -8,20 +8,22 @@
     <meta name="author" content="Kay Alvaer">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Montserrat:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <title>Tours |Re-cycle-club</title>
 
 </head>
-  <body>
-        
-    <!-- *****************  Homepage  ***************** -->
-        
+  
+  <!-- *****************  Homepage  ***************** -->
+    
         <!-- Navigation. -->
-        <main>
-            <header class="header">
+
+  
+    <body>
+        <header class="header">
                 <div class="content-wrap" id="main-nav">
-                <a href="/" class="logo"></a>
+                    <a href="/" class="logo"></a>
                 <img id="logo-img" img src="../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg" id="img-flow" alt="Logo">
                     <input class="nav-btn" type="checkbox" id="nav-btn" />
                     <label class="nav-icon" for="nav-btn"><span class="nav-bar"></span></label>
@@ -31,27 +33,55 @@
                         <li><a href="tours.html">Tours</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="contact.html">Contact Us</a></li>
-                        
                     </ul>
                 </div>
-            </header>
+        </header>
    
-    <!-- ***************** Famous Tour ***************** -->
 
-    <section class="fam-tours">
-        <div class="content-wrap">
-            <h2>Explore Nature With Your Loved Ones</h2>
-            <p class="tour-info">
-                We bring together families members of all ages on an adventure trip around the country side with 
-                interesting activities and meals during the breaks.bring your picnic bucket.
-            </p>
+    <!-- ***************** Contact Form ***************** -->
 
-    </section>
+    <body>
+        <section class="form-section">
+            <div class="content-wrap">
+            <form class="signup-form" method="post">
+                <h2><i class="fas fa-biking"></i>Book Now!</h2>
+                
+               <label for="fname">First Name</label>
+               <input class="text-input" type="text" id="fname" name="first_name" required="text-input">
+               
+               <label for="lname">Last Name</label>
+               <input class="text-input" type="text" id="lname" name="last_name" required="text-input">
+               
+               <label for="email">Email Address</label>
+               <input class="text-input" type="email" id="email" name="email_address" required="text-input">
 
-    <!-- *****************  Testimonials ***************** -->
+                <label for="comments">Other comments</label>
+                <textarea name="comments" name="comments" id="comments" rows="4" cols="40" size="20">
+                </textarea>
+               
+               <label for="guidedtour">Guided Tours</label>
+               <input type="radio" id="guidedtour" name="tour_preference" value="guided" required>
+               <label for="unguidedtour">Unguided Tour</label>
+               <input type="radio" id="unguidedtour" name="tour_preference" value="unguided">
+               
+                
+               <h4>Tour options </h4>
+               <select name="Select your option">
+                   <option value="guided">Guided Kr100</option>
+                   <option value="unguided">City Kr250</option> 
+                   <option value="family-tours">Family Tours Kr800</option>
+                   <option value="city-tours">City Tours Kr300</option> 
+                   <option value="leisure">Leisure Tours Kr800</option>
+                   <option value="adventure">Adventure Tours Kr300</option> 
+                   <option value="athletic">Athletic Tours Kr500</option> 
+                   <option value="discovery-tours">Discovery Tours Kr700</option> 
+                </select>
+                
+                <input class="join-button" type="submit" value="Contact Us!">
+            </form>
+            </div>
+    </section> 
 
-
-    
         <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
     <footer>
         <div class="content-wrap">
@@ -74,12 +104,9 @@
                 <i class="fa fa-linkedin-square" style="font-size:36px"></i>
                 <i class="fa fa-facebook-square" style="font-size:36px"></i>
         </section>
-         
-       
-        
-        <p>copyright 2020 &copy; Kay Alvaer</p>
-
-    </footer>
+                <p>copyright 2020 &copy; Kay Alvaer</p>
+        </footer>
+        </body>
     </main>
  </body>
 </html>
