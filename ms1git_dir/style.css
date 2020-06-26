@@ -174,13 +174,14 @@ body {
     
   }
 
-  @media screen and (max-width: 943px) {
+  /*@media screen and (max-width: 943px) {
    
-   /* #main-img img {
+  #main-img img {
             width: 30%;
         }
          
-    }*/
+    }
+  }*/
 
 /* images */
 
@@ -570,4 +571,9 @@ blockquote {
       width: 550px;
       background-color: 1px solid rgb(207, 213, 212);
       }      
-    }
+}
+
+
+
+
+
