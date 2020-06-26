@@ -8,6 +8,7 @@
 
 /* General ------------------------*/
 
+
 img {
     width: 300px;
 }
@@ -15,8 +16,15 @@ img {
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    font-size: 15px;
-    padding: 0;  
+    padding: 0; 
+    background-color: rgba(207, 213, 212); 
+}
+
+.content-wrap {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 15px 0;
+  overflow: auto;
 }
 
   /*  Recycle header */
@@ -28,6 +36,8 @@ body {
     top: 0px;
     width: 100%;
     z-index: 3;
+   
+   
    
   }
   
@@ -58,6 +68,7 @@ body {
     padding: 0px 0px;
     text-decoration: none;
     color: rgb(114, 186, 210);
+  
   }
 
   /* nav */
@@ -151,45 +162,46 @@ body {
     .header .nav-icon {
       display: none;
     }
-    #main-img img {
-        width: 100%;
-        border: 1px solid rgb(207, 213, 212);
+
+    img {
+      width: 300px;
+      margin: 10px;
+      justify-content: center;
+      overflow: hidden;
+      text-align: center;
       }
+   
+    
   }
 
   @media screen and (max-width: 943px) {
    
-    /*#main-img img {
+   /* #main-img img {
             width: 30%;
-        }*/
+        }
          
-    }
+    }*/
 
 /* images */
 
-/*img {
-    width: 300px;
-    margin: 10px;
-    justify-content: center;
-    overflow: hidden;
-    text-align: center;
-    }
 
-*/
+ 
+
 #logo-img {
       max-width: 950px;
       margin: 0 auto;
-      padding: 15px 0;
+      padding: 15px 0px;
       overflow: auto;
       float: left;
       display: flex;
       margin-top: -20px;
+      width: 300px;
   }
 
 
 #main-img {
     text-align: center;
-    background-image: url(../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg);
+    background-image: url(../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg) no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -244,13 +256,6 @@ h3 {
     font-size: 45px;
 }
 
-.content-wrap {
-    max-width: 1366px;
-    margin: 0 auto;
-    padding: 15px 0;
-    overflow: auto;
-}
-
  /* testimonials */
 
  .testimonials {
@@ -276,13 +281,12 @@ h3 {
 
 .form-section {
     clear: left;
-    background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back--B0mRhMJ7_Y-unsplash.jpg");
+    background: url("../ms1git_dir/assets/imgs/alesia-kazantceva-Ob1grL3RBvI-unsplash.jpg" ) no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
-    padding-left: -2vh;
     margin: 0;
-    opacity: 1.9;
+    opacity: 2.3;
   }
 
   .signup-form {
@@ -299,7 +303,7 @@ h3 {
   }
 
   
-  .signup-form h2 {
+  .signUp-form h2 {
   color: #fafafa;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -345,6 +349,8 @@ h3 {
  
  /* Service Promise */
 
+ 
+
  .ser-prom-cont {
      position: relative;
      width: 100%;
@@ -352,12 +358,24 @@ h3 {
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-bottom: -255px;
-     margin-top: -10px;
+     margin-bottom: -245px;
+     
     
  }
 
- .ser-prom-cont .club-tours {
+ .ser-prom-cont::before {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 400px;
+     z-index: 1;
+     background: linear-gradient(to top,#111,transparent);
+    
+}
+
+ .ser-prom-cont .club-ser {
      position: relative;
      max-width: 960px;
      text-align: center;
@@ -382,16 +400,17 @@ h3 {
      object-fit: cover;
      opacity: 0.4; 
      display: absolute;
-     margin: -20px -15px -650px 7px;
+     margin: -20px -15px -550px 7px;
  }
 
- .ser-btn {
+ .btn-one {
      position: relative;
      display: inline-block;
      margin-top: 30px;
      padding: 10px 30px;
      background: #400c07;
      text-decoration: none;
+     color: white;
  }
 
  .ser-spn {
@@ -417,7 +436,7 @@ header, footer {
 
      /* Header ------------------------*/
 
-/*header h1, header h2 {
+header h1, header h2 {
     color: white;
     margin: 20px;
 }
@@ -427,9 +446,10 @@ footer {
     text-align: center;
     background-color: #789597;
     margin-right: 0;
-    height: 280px;
+    height: 260px;
     padding-top: 0px;
     margin-top: -3em;
+    position: bottom;
 
 }
 
@@ -454,40 +474,102 @@ a:hover {
     text-decoration: none;
 }
 
-    /* Tours */
+/* Tours */
 
-  
+
+
+.cont-tours
+ {
+  background: rgb(207,213,212);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.cont-main-txt {
+  padding-bottom: -10em;
+  margin-bottom: 1em;
+  margin-top: 5em;
+}
+
+
+
+blockquote {
+  float: right;
+  width: 285px;
+  font-size: 95%;
+  font-style: italic;
+  font-family:  'Montserrat', sans-serif;;
+  margin: -10px 0px 40px 0px;
+  padding: 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.cont-tours img .align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.cont-tours img .align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.cont-tours img .align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.cont-tours img .align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.cont-tours img {
+  width: 550px;
+}
+
+
+
 
 
 /* Media Q ------------------------*/
 
+
 @media screen and (max-width: 1366px ) {
-    #main-img {
+    #main-img img{
         column-count:2;
         width: 100%;
-        height: 550px;
+        height: 300px;
+        width: 30%;
+        background-color: 1px solid rgb(207, 213, 212);
         } 
 
+      
 } 
 
  
-@media(min-width:943px) {
+@media screen and (min-width:943px) {
     .testimonials {
      display: flex;
      justify-content: space-between;
     
     }
-   .main-tours {
-    display: flex;
-    justify-content: space-between;
    
-   }
-   #main-img {
-    column-count:2;
+    .signup-form {
+      left: 68em;
     }
-    footer {
-        padding-top: 0px;
-        margin-top: -3em;
-    
+
+    .cont-tours {
+      font-size: 18px;
+
     }
- }
+    img{
+      
+      width: 100%;
+      height: 550px;
+      width: 550px;
+      background-color: 1px solid rgb(207, 213, 212);
+      } 
+
+     
+    }
