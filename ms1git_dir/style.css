@@ -311,7 +311,7 @@ h3 {
   letter-spacing: 4px;
   }
   
-  .text-input{
+  .txtInput{
   background-color: transparent;
   color: #fafafa;
   width: 100%;
@@ -320,7 +320,7 @@ h3 {
   border: 1px solid #fafafa;
   border-radius: 2px;
   }
-  .text-input:hover{
+  .txtInput:hover{
   border-color: #400913;
   }
   
