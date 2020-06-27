@@ -297,14 +297,14 @@ h3 {
 
   .form-section {
     clear: left;
-    background: url("../ms1git_dir/assets/imgs/yomex-owo-Syo1SctK4k0-unsplash.jpg" ) no-repeat center center;
+    background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back--B0mRhMJ7_Y-unsplash.jpg") no-repeat center center;
     background-size: cover;
     background-position: center;
     height: 900px;
     margin: 0;
     opacity: 1.5;
     
-    margin-top: 96px;
+    margin: 0 96px -15px 0;
     width: 100%;
     justify-content: center; 
   }
@@ -367,8 +367,6 @@ h3 {
 }
 
  /* Service Promise */
-
- 
 
  .ser-prom-cont {
   position: relative;
