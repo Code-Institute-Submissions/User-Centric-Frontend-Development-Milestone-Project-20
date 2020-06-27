@@ -376,8 +376,6 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-bottom: -250px;
-  
- 
 }
 
 .ser-prom-cont::before {
@@ -432,7 +430,52 @@ h3 {
 
 .ser-spn {
   color: #fff;
+}
 
+/* Tours */
+
+.cont-tours
+ {
+  background: rgb(207,213,212);
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.cont-main-txt {
+  padding-bottom: -10em;
+  margin-bottom: 1em;
+  margin-top: 4em;
+ 
+}
+
+blockquote {
+  float: right;
+  width: 285px;
+  font-size: 95%;
+  font-style: italic;
+  font-family:  'Montserrat', sans-serif;;
+  margin: -10px 0px 40px 0px;
+  padding: 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+
+.align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.cont-tours img {
+  width: 550px;
+}
+.tour-spn {
+  color: #5f8f18;
+  font-weight: 600;
 }
 
 
@@ -453,8 +496,8 @@ h3 {
 
   .ser-prom-img {
     top: -10rem;
-   
   }
+
 }
 
 
