@@ -8,10 +8,10 @@
 
 /* General ------------------------*/
 
-
 img {
-    width: 300px;
+  width: 550px;
 }
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -29,6 +29,17 @@ body {
 
   /*  Recycle header */
   
+  html {
+    display: inline-block;
+  }
+  body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: rgb(109, 176, 155);
+    }
+  
+  /* header */
+  
   .header {
     background-color: rgb(207, 213, 212);
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -36,8 +47,6 @@ body {
     top: 0px;
     width: 100%;
     z-index: 3;
-   
-   
    
   }
   
@@ -68,7 +77,6 @@ body {
     padding: 0px 0px;
     text-decoration: none;
     color: rgb(114, 186, 210);
-  
   }
 
   /* nav */
@@ -95,7 +103,7 @@ body {
     height: 2px;
     position: relative;
     transition: background .2s ease-out;
-    width: 18px;
+    width: 20px;
   }
   
   .header .nav-icon .nav-bar:before,
@@ -110,11 +118,11 @@ body {
   }
   
   .header .nav-icon .nav-bar:before {
-    top: 5px;
+    top: 7px;
   }
   
   .header .nav-icon .nav-bar:after {
-    top: -5px;
+    top: -7px;
   }
 
  
@@ -125,7 +133,7 @@ body {
   }
   
   .header .nav-btn:checked ~ .nav-list {
-    max-height: 290px;
+    max-height: 280px;
   }
   
   .header .nav-btn:checked ~ .nav-icon .nav-list {
@@ -145,24 +153,31 @@ body {
     top: 0;
   }
   
-  /* Navigation media 48em = 768px */
+    /* 48em = 768px */
   
-  @media (min-width: 48em) {
-    .header li {
-      float: left;
-    }
-    .header li a {
-      padding: 20px 30px;
-    }
-    .header .nav-list {
-      clear: none;
-      float: right;
-      max-height: none;
-    }
-    .header .nav-icon {
-      display: none;
+    @media (min-width: 48em) {
+      .header li {
+        float: left;
+      }
+      .header li a {
+        padding: 20px 30px;
+      }
+      .header .nav-list {
+        clear: none;
+        float: right;
+        max-height: none;
+      }
+      .header .nav-icon {
+        display: none;
+      }
+
     }
 
+
+
+
+
+    /*
     img {
       width: 300px;
       margin: 10px;
@@ -170,410 +185,89 @@ body {
       overflow: hidden;
       text-align: center;
       }
+    */
+ 
    
     
-  }
+  
 
   /*@media screen and (max-width: 943px) {
    
-  #main-img img {
-            width: 30%;
+  #logo-img {
+            width: 50%;
         }
          
     }
-  }*/
+  }
+  */
 
 /* images */
 
-
- 
-
 #logo-img {
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 15px 0px;
-      overflow: auto;
-      float: left;
-      display: flex;
-      margin-top: -20px;
-      width: 300px;
-  }
-
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 15px 0;
+  overflow: auto;
+  float: left;
+  display: flex;
+  margin-top: -20px;
+}
 
 #main-img {
-    text-align: center;
-    background-image: url(../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg) no-repeat center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: darken;
-    height: 700px;
-    margin-top: 96px;
-    margin-bottom: -18px;
-    width: 100%;
-    justify-content: center; 
+  text-align: center;
+  background: url("../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-blend-mode: darken;
+  margin-top: 96px;
+  margin-bottom: -18px;
+  justify-content: center; 
 
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
- } 
- #hero-sec {
-     height: 700px;
-     width: 100%;
-     overflow: hidden;
-     position: relative;
- }
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+} 
+
+#hero-sec {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
 
 
- @keyframes hero-zoom {
-   from {
-    transform: scale(1);
-   } 
-   to {
-    transform: scale(1.1);
-   } 
- }
+@keyframes hero-zoom {
+from {
+ transform: scale(1);
+} 
+to {
+ transform: scale(1.1);
+} 
+}
 
- 
 .main-img p {
-    float: right;
-  }
+  float: right;
+}
 
 h1, h2, h3 {
-    font-family: 'Cormorant', serif;
-    font-weight: 300;
-    margin: 0;
+  font-family: 'Cormorant', serif;
+  font-weight: 300;
+  margin: 0;
 }
 
 h1 {
-    font-size: 100px;
-    line-height: 1;
+  font-size: 50px;
+  line-height: 1;
 }
 
 h2 {
-    font-size: 35px;
+  font-size: 35px;
 }
 
 h3 {
-    font-size: 45px;
+  font-size: 45px;
 }
-
- /* testimonials */
-
- .testimonials {
-    background-color: #7ccbd7;
-    margin: 0 auto 0 auto;
-    line-height: 1.65;
-    text-decoration: none;
-    padding: 30px;
-    font-family: 'Montserrat', sans-serif;
-    
-  }
- 
-  .comment {
-   padding: 20px;
-   flex-basis: 30%;
-   box-sizing: border-box;
-   padding-top: 0em;
-   margin-top: 5vh;
- 
-  }
-
-  /* Forms */
-
-.form-section {
-    clear: left;
-    background: url("../ms1git_dir/assets/imgs/alesia-kazantceva-Ob1grL3RBvI-unsplash.jpg" ) no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    margin: 0;
-    opacity: 2.3;
-  }
-
-  .signUp-form {
-    margin-top: 150px;
-    color: #fff;
-    background-color: rgba(22, 21, 21, 0.6);
-    max-width: 500px;
-    position: absolute;
-    left: 10px;
-    padding: 25px;
-    padding-right: 3em;
-    margin-right: 2em;
-    
-  }
-
-  
-  .signUp-form h2 {
-  color: #fafafa;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  }
-  
-  .txtInput{
-  background-color: transparent;
-  color: #fafafa;
-  width: 100%;
-  height: 25px;
-  margin: 5px 0 20px 0;
-  border: 1px solid #fafafa;
-  border-radius: 2px;
-  }
-  .txtInput:hover{
-  border-color: #400913;
-  }
-  
-  .join-button{
-  margin-top: 20px;
-  border-radius: 2px;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #6ba612;
-  color: #fafafa;
-  display: block;
-  box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.6);
-  }
-  
-  .join-button:hover{
-  background-color: #400913;
-  color: #6ba612;
-  }
-
-  i {
-    color: #400913;
-    text-transform: uppercase;
-    letter-spacing: 38px;
-}
-
- 
- /* Service Promise */
-
- 
-
- .ser-prom-cont {
-     position: relative;
-     width: 100%;
-     min-height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     margin-bottom: -245px;
-     
-    
- }
-
- .ser-prom-cont::before {
-     content: "";
-     position: absolute;
-     bottom: 0;
-     left: 0;
-     width: 100%;
-     height: 400px;
-     z-index: 1;
-     background: linear-gradient(to top,#111,transparent);
-    
-}
-
- .ser-prom-cont .club-ser {
-     position: relative;
-     max-width: 960px;
-     text-align: center;
-     z-index: 1;
-
- }
-
- .ser-prom-cont .club-tours .ser-head p {
-     color: #1a0808;
-     font-size: 2em;
-     font-weight: 400;
- }
- 
- 
- .ser-prom-img {
-     position: absolute;
-     top: 0;
-     left: -0.5rem;
-     right: 1rem;
-     width: 100%;
-     height: 70%;
-     object-fit: cover;
-     opacity: 0.4; 
-     display: absolute;
-     margin: -20px -15px -550px 7px;
- }
-
- .btn-one {
-     position: relative;
-     display: inline-block;
-     margin-top: 30px;
-     padding: 10px 30px;
-     background: #400c07;
-     text-decoration: none;
-     color: white;
- }
-
- .ser-spn {
-     color: #fff;
-
- }
-
-    /* Header and footer ------------------------*/
-
-
-header {
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: 0px;
-    padding-top: 0;
-}
-
-
-header, footer {
-    background-color: rgb(163,151,89);
-    color: #333;
-}
-
-     /* Header ------------------------*/
-
-header h1, header h2 {
-    color: white;
-    margin: 20px;
-}
-   /* Footer ------------------------*/
-     
-footer {
-    text-align: center;
-    background-color: #789597;
-    margin-right: 0;
-    height: 260px;
-    padding-top: 0px;
-    margin-top: -3em;
-    position: bottom;
-
-}
-
-footer ul {
-    width: 670px;
-    padding: 5px;
-    margin: 2px auto 2px auto;
-    text-align: center;
-}
-
-footer li {
-    display: inline;
-    margin: 0px 6px;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: #400c07;
-    text-decoration: none;
-}
-
-/* Tours */
-
-
-
-.cont-tours
- {
-  background: rgb(207,213,212);
-  padding-top: 0;
-  padding-bottom: 0;
-}
-.cont-main-txt {
-  padding-bottom: -10em;
-  margin-bottom: 1em;
-  margin-top: 5em;
-}
-
-
-
-blockquote {
-  float: right;
-  width: 285px;
-  font-size: 95%;
-  font-style: italic;
-  font-family:  'Montserrat', sans-serif;;
-  margin: -10px 0px 40px 0px;
-  padding: 10px;
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
-}
-
-.cont-tours img .align-right {
-  float: right;
-  margin-left: 10px;
-}
-
-.cont-tours img .align-left {
-  float: left;
-  margin-right: 10px;
-}
-
-.cont-tours img .align-right {
-  float: right;
-  margin-left: 10px;
-}
-
-.cont-tours img .align-left {
-  float: left;
-  margin-right: 10px;
-}
-
-.cont-tours img {
-  width: 550px;
-}
-
-
-
-
-
-/* Media Q ------------------------*/
-
-
-@media screen and (max-width: 1366px ) {
-    #main-img img{
-        column-count:2;
-        width: 100%;
-        height: 300px;
-        width: 30%;
-        background-color: 1px solid rgb(207, 213, 212);
-        } 
-
-      
-} 
-
- 
-@media screen and (min-width:943px) {
-    .testimonials {
-     display: flex;
-     justify-content: space-between;
-    
-    }
-   
-    .signup-form {
-      left: 68em;
-    }
-
-    .cont-tours {
-      font-size: 18px;
-
-    }
-    img{
-      
-      width: 100%;
-      height: 550px;
-      width: 550px;
-      background-color: 1px solid rgb(207, 213, 212);
-      }      
-}
-
-
 
 
 
