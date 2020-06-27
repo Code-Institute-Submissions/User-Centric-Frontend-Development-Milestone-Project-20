@@ -257,17 +257,11 @@ h1, h2, h3 {
 }
 
 .serHead-btn {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 1;
+  color: #6ba612;
 
-
-  position: relative;
-  display: inline-block;
-  margin-top: 30px;
-  padding: 10px 15px;
-  background:  #400c07;
-  text-decoration: none;
-  color: white;
+ 
 }
 
 h2 {
@@ -463,6 +457,40 @@ h3 {
     top: -10rem;
    
   }
+}
+
+
+   /* Footer ------------------------*/
+     
+   footer {
+    text-align: center;
+    background-color: #789597;
+    margin-right: 0;
+    height: 260px;
+    padding-top: 0px;
+    margin-top: 0;
+}
+
+footer ul {
+    width: 670px;
+    padding: 5px;
+    margin: 2px auto 2px auto;
+    text-align: center;
+    padding-right: 160px;
+}
+
+footer li {
+    display: inline;
+    margin: 0px 6px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #400c07;
+    text-decoration: none;
 }
 
 
