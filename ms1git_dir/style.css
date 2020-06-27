@@ -269,5 +269,37 @@ h3 {
   font-size: 45px;
 }
 
+ /* testimonials */
+
+ .testimonials {
+  margin: 0 auto 0 auto;
+  line-height: 1.65;
+  text-decoration: none;
+  padding: 30px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.comments {
+ padding: 20px;
+ flex-basis: 30%;
+ box-sizing: border-box;
+ padding-top: 0em;
+ margin-top: 5vh;
+
+}
+
+
+/* Media */
+
+ 
+@media screen and (min-width:943px) {
+  .testimonials {
+   display: flex;
+   justify-content: space-between;
+  
+  }
+}
+
 
 
