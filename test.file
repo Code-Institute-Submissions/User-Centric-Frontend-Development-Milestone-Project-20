@@ -376,11 +376,15 @@ blockquote {
       width: 550px;
       background-color: 1px solid rgba(207, 213, 212);
       } 
+}
 
-    
-    
-      
 
+
+footer i {
+  margin-right: -10px;
+}
+.copy-rgt-info {
+  margin-right: 30px;
 }
 
 
