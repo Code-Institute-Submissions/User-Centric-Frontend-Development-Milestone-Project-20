@@ -587,32 +587,121 @@ blockquote {
 
 /*About Us section */
 
-.abt-main-info {
-  padding-top: 1rem;
+.abt-wrap {
+  height: 100vh;
+  width: 100%;
+  margin-left: -5.2rem;
   text-align: center;
- 
+
   
+}
+.abt-content .btn-title{
+  padding: 7rem 2rem;
+  margin: 5rem;
+}
+
+/*.abt-info {
+  background: #a1c4cf;
+
+}
+*/
+
+.abt-info .abt-txt {
+  padding: -6.5rem 4.9rem;
+  margin-bottom: 3rem;
+  margin-right: -4.8rem;
+  margin-left: -4.8;
+}
+
+.abt-txt {
+  color: #ffffff;
+  margin-left: 5.3rem;
+}
+
+.abt-content .abt-title span {
+  padding: -3rem 0;
+  margin: 0 -5rem;
+}
+.abt-content .hero.btn {
+  padding: 1rem 2rem;
+  margin: .8rem;
+}
+
+.abt-content  {
+  background: #6ba612;
+  margin-left: 0;
+  
+}
+
+.abt-content span {
+  display: block;
 }
 
 .abt-main{
   padding-top: 8rem;
+  text-align: center;
 }
-.abt.info
-.abt.txt
-.abt-content {
+
+
+/*
+
+.abt-content .hero.btn {
+  padding: 1rem 2rem;
+  margin: .5rem;
+}
+
+.abt-txt .abt-info {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   text-align: center;
   width: 80%;
   margin: 3rem 2rem;
-  box-shadow: 0 15px 20px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .abt-content .abt-title {
   padding: 2rem 0;
 }
 
-.abt-content .btn-cont{
+.abt-content .hero.btn {
+  padding: 1rem 2rem;
+  margin: .5rem;
+}
+
+.abt-content span {
+  display: block;
+}
+.abt-content {
+  padding: 2rem 0;
+
+  border: 100% solid #789597;
+  text-align: center;
+  display: absolute;
+  margin: -15% 0 6% -3%;
+
+}
+.abt-main{
+  padding-top: 8rem;
+}
+
+.abt-h5 {
+  padding-bottom: .8rem;
+}
+
+
+/*-----More abt -------*/
+
+/*.abt-main{
+  padding-top: 8rem;
+}
+
+
+.abt-content .abt-title {
+  padding: 2rem 0;
+}
+
+#abt-content .btn-cont{
   padding: 7rem 2rem;
   background: #789597;
   margin: 5rem;
@@ -624,15 +713,16 @@ blockquote {
 
 .abt-span {
   text-align: center;
+  
 }
 
-.abt-content {
+#abt-content {
   border: 2px solid #789597;
   text-align: center;
   display: absolute;
-  margin: 2% 0 6% 0;
+  margin: 5rem 0 0 0;
 }
-
+*/
 
 
 
@@ -685,10 +775,25 @@ blockquote {
   margin-right: -14%;
   margin-bottom: -20px;
   padding-left: 20px;
- 
-  
 }
 
+.abt-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  float: right;
+  margin: 3% 13% 10% -2%;
+  overflow: auto;
+  width: 33%;
+  height: 100%;
+ 
+}
+
+.staff-img {
+  width: 100%;
+  height: 30vh;
+}
+/*
 .abt-content {
   display: flex;
   justify-content: space-between;
@@ -697,6 +802,14 @@ blockquote {
   margin: 3% 13% 10% -2%;
   overflow: auto;
   width: 32%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 1px solid rgba(0, 0, 0, 0.2);
  
  } 
 
@@ -721,7 +834,7 @@ blockquote {
   overflow: auto;
 
 }
-
+*/
 
    /* Footer ------------------------*/
      

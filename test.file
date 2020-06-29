@@ -399,3 +399,83 @@ footer i {
                 </div>
                </div>
         </section>
+
+
+.abt-main-info {
+  padding-top: 1rem;
+  text-align: center;
+ 
+  
+}
+
+.abt-main{
+  padding-top: 8rem;
+}
+.abt.info
+.abt.txt
+.abt-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px solid rgba(0, 0, 0, 0.2);
+}
+
+.abt-content .abt-title {
+  padding: 2rem 0;
+}
+
+.abt-content .btn-cont{
+  padding: 7rem 2rem;
+  background: #789597;
+  margin: 5rem;
+}
+
+.abt-info .abt-span {
+  display: block;
+}
+
+.abt-span {
+  text-align: center;
+}
+
+.abt-content {
+  border: 2px solid #789597;
+  text-align: center;
+  display: absolute;
+  margin: 2% 0 6% 0;
+}
+
+.abt-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  float: right;
+  margin: 3% 13% 10% -2%;
+  overflow: auto;
+  width: 32%;
+ 
+ } 
+
+ .abt-wrap {
+   margin: 0 5vw;
+ }
+ .staff-img {
+   width: 100%;
+
+ }
+ .abt-main-info .abt-main-info {
+  text-align: center;
+  padding: 0 -10px 0 -20px;
+  overflow: auto;
+  max-width: 600px;
+  
+}
+}
+
+.abt-main h2 {
+  text-align: center;
+  overflow: auto;
+
+}
