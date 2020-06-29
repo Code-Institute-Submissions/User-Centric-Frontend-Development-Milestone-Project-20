@@ -213,6 +213,81 @@ body {
   margin-top: -20px;
 }
 
+/* hero section */
+
+.hero-sec {
+  background: url("../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  opacity: 1.8;
+  margin-bottom: 2rem;
+
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+  from {
+   transform: scale(1.0);
+  } 
+  to {
+   transform: scale(1.1);
+  } 
+  }
+
+.main-cont {
+  padding-top: 10rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 20%;
+
+}
+
+.hero-sec h1 h3 {
+  margin: 0.3rem;
+  font-weight: 400;
+  
+}
+
+.hero-sec .hero.btn {
+  margin: 1.8rem;
+  background: #a1c4cf;
+}
+
+.hero-sec h1 {
+  font-size: 2.5rem;
+  color:#1a0808
+
+}
+.hero-sec h3 {
+  font-size: 1.3rem;
+  color: #400c07;
+}
+
+.hero-btn a:hover {
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+
+}
+
+.hero-btn {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background:#6ba612;
+  text-decoration: none;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2);
+ 
+
+}
+
+/*
 #main-img {
   text-align: center;
   background: url("../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
@@ -271,6 +346,7 @@ h2 {
 h3 {
   font-size: 45px;
 }
+*/
 
  /* testimonials */
 
@@ -509,6 +585,59 @@ blockquote {
   line-height:1;
 }
 
+/*About Us section */
+
+.abt-main-info {
+  padding-top: 1rem;
+  text-align: center;
+ 
+  
+}
+
+.abt-main{
+  padding-top: 8rem;
+}
+.abt.info
+.abt.txt
+.abt-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px solid rgba(0, 0, 0, 0.2);
+}
+
+.abt-content .abt-title {
+  padding: 2rem 0;
+}
+
+.abt-content .btn-cont{
+  padding: 7rem 2rem;
+  background: #789597;
+  margin: 5rem;
+}
+
+.abt-info .abt-span {
+  display: block;
+}
+
+.abt-span {
+  text-align: center;
+}
+
+.abt-content {
+  border: 2px solid #789597;
+  text-align: center;
+  display: absolute;
+  margin: 2% 0 6% 0;
+}
+
+
+
+
+
+
 
 
 
@@ -560,7 +689,36 @@ blockquote {
   
 }
 
+.abt-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  float: right;
+  margin: 3% 13% 10% -2%;
+  overflow: auto;
+  width: 32%;
+ 
+ } 
 
+ .abt-wrap {
+   margin: 0 5vw;
+ }
+ .staff-img {
+   width: 100%;
+
+ }
+ .abt-main-info .abt-main-info {
+  text-align: center;
+  padding: 0 -10px 0 -20px;
+  overflow: auto;
+  max-width: 600px;
+  
+}
+}
+
+.abt-main h2 {
+  text-align: center;
+  overflow: auto;
 
 }
 

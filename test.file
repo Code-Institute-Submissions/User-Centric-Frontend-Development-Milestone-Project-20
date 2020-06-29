@@ -388,3 +388,14 @@ footer i {
 }
 
 
+  <main>
+        <section class="hero-sec">
+            <div class="content-wrap">
+                <div id="main-img">
+                    <div class="section">
+                        <a href="contact.html" class="btn-one"><span class="serHead-btn">Book Tours</span></a>
+                        
+                    </div>
+                </div>
+               </div>
+        </section>
