@@ -191,12 +191,12 @@ body {
 .hero-sec {
   background: url("../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
   background-size: cover;
-  height: 700px;
+  height: 100%;
   width: 100%;
 
   display: flex;
   justify-content: center;
-  opacity: 0.7;
+  opacity: 0.9;
 
   animation-name: hero-zoom;
   animation-duration: 5s;
@@ -226,7 +226,7 @@ body {
   text-align: center;
 
 
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
 
 }
 
@@ -268,7 +268,8 @@ h3 {
 .hero-btn {
   position: relative;
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 10px 30px;
   background: #6ba612;
   text-decoration: none;
@@ -288,8 +289,7 @@ h3 {
   line-height: 1.65;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
-  padding: 20px;
-  margin: 20px;
+  padding: 5px;
 }
 
 .comment {
@@ -437,12 +437,22 @@ i {
 .ser-prom-cont .club-tours .ser-head p {
   color: #1a0808;
   font-size: 2em;
-  font-weight: 400;
-  background-color: rgba(255, 255, 255, 0.3);
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.9);
 
 }
 
+.ser-prom-img {
+  position: absolute;
+  bottom: 6px;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.5;
+}
 
+/*
 .ser-prom-img {
   position: absolute;
   left: -0.10rem;
@@ -452,9 +462,8 @@ i {
   height: 100%;
   object-fit: cover;
   opacity: 0.3;
-
 }
-
+*/
 .ser-btn-one {
   position: relative;
   display: inline-block;
@@ -489,8 +498,9 @@ i {
 /* Tours */
 
 img {
-  width: 500px;
+  width: 300px;
   padding: 5px;
+
 }
 
 .cont-tours {
@@ -573,20 +583,18 @@ blockquote {
   width: 100%;
   margin-left: -5.2rem;
   text-align: center;
-
-
 }
 
 .abt-content .btn-title {
-  padding: 7rem 2rem;
+  padding: 0rem 0rem;
   margin: 5rem;
 }
 
-/*.abt-info {
-  background: #a1c4cf;
-
+.abt-main {
+  padding-top: 20%;
 }
-*/
+
+
 
 .abt-info .abt-txt {
   padding: -6.5rem 4.9rem;
@@ -601,100 +609,70 @@ blockquote {
   margin-left: 5.3rem;
 }
 
-.abt-content .abt-title span {
-  padding: -3rem 0;
-  margin: 0 -5rem;
+.abt-content #abt-span {
+  align-content: center;
+  margin-top: 1rem;
+
 }
 
-.abt-content .hero.btn {
-  padding: 1rem 2rem;
+
+#abt-span {
+  margin-left: 200px;
+}
+
+
+.hero.btn {
+  padding: 2rem 5rem;
   margin: .8rem;
 }
 
 .abt-content {
   background: #fff;
-  margin-left: 0;
-  margin-bottom: 4rem;
+  margin-left: 2px;
+  margin-bottom: 10%;
 
-  box-shadow: 0 25px 42px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0 solid rgba(0, 0, 0, 0.9);
   height: 100%;
 }
 
-.abt-span {
-  display: inline-flex;
-  margin-bottom: 15px;
-
+.abt-btn-span {
+  color: #fafafa;
 }
 
 
+
+
 .abt-main h2 {
-  padding-top: 0rem;
+  padding-top: 1.5rem;
   text-align: center;
   color: #400c07;
   font-weight: 500;
 }
 
 .abt-main p {
-  padding-top: 3rem;
+  padding-top: 1rem;
   text-align: center;
   color: #333;
+  bottom: 2rem;
 }
 
 .staff-img {
   width: 100%;
-
-}
-
-.abt-content a {
-  margin-bottom: 0;
+  height: 300px;
 }
 
 
 /*
-
-.abt-content .hero.btn {
-  padding: 1rem 2rem;
-  margin: .5rem;
-}
-
-.abt-txt .abt-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  width: 80%;
-  margin: 3rem 2rem;
-  box-shadow: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.abt-content .abt-title {
-  padding: 2rem 0;
-}
-
-.abt-content .hero.btn {
-  padding: 1rem 2rem;
-  margin: .5rem;
-}
-
-.abt-content span {
-  display: block;
-}
-.abt-content {
-  padding: 2rem 0;
-
+.staff-img {
   border: 100% solid #789597;
   text-align: center;
   display: absolute;
   margin: -15% 0 6% -3%;
 
 }
-.abt-main{
-  padding-top: 8rem;
-}
+*/
 
-.abt-h5 {
-  padding-bottom: .8rem;
-}
+
 
 
 /*-----More abt -------*/
@@ -748,11 +726,20 @@ blockquote {
     left: 15em;
   }
 
+  .hero-sec {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: 100px;
+    position: relative;
+    margin-bottom: 100px;
+  }
 
 
   .cont-tours p {
-    font-size: 20px;
-    padding-top: 4%;
+    font-size: 18px;
+    padding-top: 8%;
+    top: 10px;
   }
 
   article {
@@ -763,6 +750,7 @@ blockquote {
 
   #cont-title-flow1 {
     float: left;
+    padding: 10px;
   }
 
   #cont-title-flow2 {
@@ -780,12 +768,22 @@ blockquote {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     float: right;
-    margin: 3% 13% 10% -2%;
 
-    width: 33%;
-    height: 100%;
+    width: 40%;
+    height: 40%;
+    margin: 3% 100px 5% 0;
+    align-content: center;
 
+  }
+
+  .abt-main p {
+    font-size: 20px;
+  }
+
+  .abt-main {
+    padding-top: 10%;
   }
 
   .staff-img {
@@ -797,68 +795,24 @@ blockquote {
     left: 42rem;
   }
 
-
-  .hero-sec {
-    margin-top: 0px;
-
+  .ser-prom-img {
+    bottom: 3px;
+    height: 100%;
   }
 
   .ser-spn {
     width: 960px;
-
   }
 }
 
 
-/*
-.abt-content {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  float: right;
-  margin: 3% 13% 10% -2%;
-  overflow: auto;
-  width: 32%;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
-  width: 80%;
-  margin: 3rem 2rem;
-  box-shadow: 1px solid rgba(0, 0, 0, 0.2);
- 
- } 
-
- .abt-wrap {
-   margin: 0 5vw;
- }
- .staff-img {
-   width: 100%;
-
- }
- .abt-main-info .abt-main-info {
-  text-align: center;
-  padding: 0 -10px 0 -20px;
-  overflow: auto;
-  max-width: 600px;
-  }
-
-}
-
-.abt-main h2{
-  text-align: center;
-  overflow: auto;
-
-}
-*/
 
 /* Footer ------------------------*/
 
 footer {
   text-align: center;
   background-color: #789597;
-
+  align-content: center;
   height: 260px;
   padding-top: 0;
   margin-top: 0;
@@ -870,15 +824,10 @@ footer h2 {
 
 }
 
-
-footer ul {
-  width: 670px;
-  padding: 5px;
-  margin: 2px auto 2px auto;
-  text-align: center;
-  padding-right: 170px;
-
+footer ul:hover {
+  color: #6ba612;
 }
+
 
 footer li {
   display: inline;
