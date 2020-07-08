@@ -32,7 +32,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgba(207, 213, 222);
+  background-color: #f2fffe;
 }
 
 /* header */
@@ -176,6 +176,7 @@ body {
   }
 }
 
+
 #logo-img {
   max-width: 280px;
   margin: 0 auto;
@@ -224,10 +225,7 @@ body {
 .main-cont {
   margin: 20rem 2rem 10rem 2rem;
   text-align: center;
-
-
   background-color: rgba(255, 255, 255, 0.3);
-
 }
 
 .main-cont h1,
@@ -262,7 +260,6 @@ h3 {
   background: transparent;
   border: 1px solid #fff;
   color: #fff;
-
 }
 
 .hero-btn {
@@ -298,25 +295,38 @@ h3 {
   padding-top: 2em;
 }
 
+.comment h4 {
+  margin-bottom: 30px
+}
+
 .comment i {
-  font-size: 30px;
+  font-size: 25px;
   color: #6ba612;
+  margin-bottom: 8px;
+  letter-spacing: 7px;
+}
+
+.rating i {
+  font-size: 15px;
+  color: #ebdb2b;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
 }
 
 /* Forms */
 
 .form-section {
-  clear: left;
-  background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back-vNdhfAMShyY-unsplash.jpg") no-repeat center center;
-  background-size: cover;
-  background-position: center;
-  height: 900px;
-  margin: 0;
-  opacity: 1.5;
 
-  margin: 0 96px -15px 0;
+  background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back-vNdhfAMShyY-unsplash.jpg") no-repeat center center;
+
+  background-size: cover;
+  height: 100vh;
   width: 100%;
+
+  display: flex;
   justify-content: center;
+  opacity: 0.9;
+  margin: 2rem 0 -1.5rem 0;
 }
 
 .signUp-form {
@@ -385,7 +395,7 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: -23px;
+  margin-bottom: -26px;
   left: 0;
   bottom: 0;
   overflow: hidden;
@@ -397,49 +407,17 @@ i {
   max-width: 1366px;
   text-align: center;
   z-index: 1;
-
 }
 
 .club-ser {
   background-color: rgba(255, 255, 255, 0.2);
-
 }
-
-/*
-
-.ser-prom-cont::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to top, #111, transparent);
-
-}
-
-
-.ser-prom-cont::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 400px;
-  z-index: 1;
-  background: linear-gradient(to top, #111, transparent);
-}
-*/
-
-
 
 .ser-prom-cont .club-tours .ser-head p {
   color: #1a0808;
   font-size: 2em;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.9);
-
 }
 
 .ser-prom-img {
@@ -452,18 +430,7 @@ i {
   opacity: 0.5;
 }
 
-/*
-.ser-prom-img {
-  position: absolute;
-  left: -0.10rem;
-  top: -.20rem;
-  right: 1rem;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.3;
-}
-*/
+
 .ser-btn-one {
   position: relative;
   display: inline-block;
@@ -506,11 +473,12 @@ img {
 .cont-tours {
   background: rgb(207, 213, 212);
   padding-top: 0;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
+  margin-bottom: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .cont-main-txt {
-  padding-bottom: -10em;
   margin-bottom: 1em;
   margin-top: 4em;
 
@@ -518,18 +486,17 @@ img {
 
 blockquote {
   float: right;
-  width: 285px;
+  width: 275px;
   font-size: 95%;
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
-  ;
-  margin: -10px 0px 40px 0px;
+
+  margin: 0px 0px 0px 0px;
   padding: 10px;
   border-top: 1px solid blue;
   border-bottom: 1px solid blue;
   color: #400c07;
 }
-
 
 .align-right {
   float: right;
@@ -542,7 +509,8 @@ blockquote {
 }
 
 .cont-tours img {
-  width: 550px;
+  width: 505px;
+  height: 300px;
 }
 
 .tour-spn {
@@ -552,9 +520,10 @@ blockquote {
 
 .cont-title {
   font-size: 140%;
-  margin: 1%;
-  color: #777777;
+  margin: 0;
+  color: #400c07;
   margin-left: 0px;
+  padding-bottom: 0;
 
 }
 
@@ -568,12 +537,24 @@ blockquote {
   color: #5f8f18;
 }
 
+.cont-tours p {
+
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 5px 0 10px;
+  line-height: 1;
+  font-weight: 300;
+
+  letter-spacing: 2px;
+}
+
 
 .cont-tours p:first-letter {
   float: left;
   font-size: 300%;
   margin: 0 5px 0 0;
   line-height: 1;
+  font-weight: 300;
+  color: #400c07;
 }
 
 /*About Us section */
@@ -585,23 +566,45 @@ blockquote {
   text-align: center;
 }
 
+.abt-main {
+  padding-top: 20%;
+  background-color: #f2fffe;
+}
+
+.abt-content {
+  box-sizing: border-box;
+}
+
+/*
+.abt-content {
+  box-sizing: border-box;
+  text-align: center;
+
+  position: relative;
+  width: 495px;
+  height: 300px;
+  border-radius: 2%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 6px 20px 0px rgba(0, 0, 0, 0.31;
+      margin-left: 2px;
+      margin-bottom: 10%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.9);
+  }
+*/
+
+
+
+
+
 .abt-content .btn-title {
   padding: 0rem 0rem;
   margin: 5rem;
 }
 
-.abt-main {
-  padding-top: 20%;
-}
-
-
-
 .abt-info .abt-txt {
-  padding: -6.5rem 4.9rem;
-  margin-bottom: 3rem;
-  margin-right: -4.8rem;
-  margin-left: -4.8;
 
+  margin-left: -4.8;
+  margin-right: -4.8rem;
 }
 
 .abt-txt {
@@ -626,21 +629,9 @@ blockquote {
   margin: .8rem;
 }
 
-.abt-content {
-  background: #fff;
-  margin-left: 2px;
-  margin-bottom: 10%;
-
-  box-shadow: 0 0 0 solid rgba(0, 0, 0, 0.9);
-  height: 100%;
-}
-
 .abt-btn-span {
   color: #fafafa;
 }
-
-
-
 
 .abt-main h2 {
   padding-top: 1.5rem;
@@ -652,64 +643,19 @@ blockquote {
 .abt-main p {
   padding-top: 1rem;
   text-align: center;
-  color: #333;
+  color: #400c07;
   bottom: 2rem;
+
 }
 
 .staff-img {
   width: 100%;
   height: 300px;
+  border-radius: 5%;
+  box-sizing: border-box;
+
+  box-shadow: 10px 5px 5px solid rgba(0, 0, 0, 0.9)
 }
-
-
-/*
-.staff-img {
-  border: 100% solid #789597;
-  text-align: center;
-  display: absolute;
-  margin: -15% 0 6% -3%;
-
-}
-*/
-
-
-
-
-/*-----More abt -------*/
-
-/*.abt-main{
-  padding-top: 8rem;
-}
-
-
-.abt-content .abt-title {
-  padding: 2rem 0;
-}
-
-#abt-content .btn-cont{
-  padding: 7rem 2rem;
-  background: #789597;
-  margin: 5rem;
-}
-
-.abt-info .abt-span {
-  display: block;
-}
-
-.abt-span {
-  text-align: center;
-}
-
-#abt-content {
-  border: 2px solid #789597;
-  text-align: center;
-  display: absolute;
-  margin: 5rem 0 0 0;
-}
-*/
-
-
-
 
 
 /* Media */
@@ -768,22 +714,24 @@ blockquote {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     float: right;
 
     width: 40%;
     height: 40%;
-    margin: 3% 100px 5% 0;
+    margin: 3% 80px 5% 0;
     align-content: center;
 
   }
 
   .abt-main p {
     font-size: 20px;
+
   }
 
   .abt-main {
     padding-top: 10%;
+    position: relative;
+    margin-bottom: 0px;
   }
 
   .staff-img {
@@ -804,7 +752,6 @@ blockquote {
     width: 960px;
   }
 }
-
 
 
 /* Footer ------------------------*/
