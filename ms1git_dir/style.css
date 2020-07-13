@@ -386,6 +386,63 @@ i {
   letter-spacing: 38px;
 }
 
+/* Contact Map */
+
+.contact-site {
+
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+
+  box-sizing: border-box;
+  box-shadow: 20px 20px 20px solid rgba(0, 0, 0, 0.7)
+}
+
+.contact-det {
+  padding-top: 10px;
+  flex: 1;
+  justify-content: space-between;
+  flex-basis: 30%;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-det p {
+  text-align: center;
+}
+
+.contact-det i {
+  color: #6ba612;
+  margin-left: 45px;
+  font-size: 30px;
+}
+
+
+.open-hrs h2 {
+  color: #400c07;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+/*
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.opening h2 {
+  font-family: 'montserrat', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+*/
+
 /* Service Promise */
 
 .ser-prom-cont {
@@ -493,8 +550,8 @@ blockquote {
 
   margin: 0px 0px 0px 0px;
   padding: 10px;
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
+  border-top: 1px solid #6ba612;
+  border-bottom: 1px solid #6ba612;
   color: #400c07;
 }
 
@@ -592,10 +649,6 @@ blockquote {
   }
 */
 
-
-
-
-
 .abt-content .btn-title {
   padding: 0rem 0rem;
   margin: 5rem;
@@ -657,19 +710,33 @@ blockquote {
   box-shadow: 10px 5px 5px solid rgba(0, 0, 0, 0.9)
 }
 
-
 /* Media */
-
 
 @media screen and (min-width:943px) {
   .testimonials {
     display: flex;
     justify-content: space-between;
-
   }
 
   .signUp-form {
     left: 15em;
+  }
+
+  .contact-site {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .open-hrs ul {
+    color: #400c07;
+    font-size: 20px;
+    margin-top: 1.5rem;
+  }
+
+  .open-hrs li {
+    color: #400c07;
+    text-decoration: none;
+    margin-top: 0.5rem;
   }
 
   .hero-sec {
@@ -681,7 +748,6 @@ blockquote {
     margin-bottom: 100px;
   }
 
-
   .cont-tours p {
     font-size: 18px;
     padding-top: 8%;
@@ -691,7 +757,6 @@ blockquote {
   article {
     margin-top: -20px;
     margin-bottom: 5px;
-
   }
 
   #cont-title-flow1 {
@@ -760,9 +825,7 @@ footer {
   text-align: center;
   background-color: #789597;
   align-content: center;
-  height: 260px;
-  padding-top: 0;
-  margin-top: 0;
+  height: 270px;
 }
 
 footer h2 {
