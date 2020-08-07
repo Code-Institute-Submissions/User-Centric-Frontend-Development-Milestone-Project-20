@@ -1,0 +1,520 @@
+#main-img {
+    text-align: center;
+    background: url("../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 96px;
+    margin-bottom: -18px;
+    justify-content: center; 
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+ } 
+ #hero-sec {
+     height: 700px;
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+ }
+
+
+ @keyframes hero-zoom {
+   from {
+    transform: scale(1);
+   } 
+   to {
+    transform: scale(1.1);
+   } 
+ }
+
+ 
+.main-img p {
+    float: right;
+  }
+
+h1, h2, h3 {
+    font-family: 'Cormorant', serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+ /* testimonials */
+
+ .testimonials {
+    background-color: #7ccbd7;
+    margin: 0 auto 0 auto;
+    line-height: 1.65;
+    text-decoration: none;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+ 
+  .comments {
+   padding: 20px;
+   flex-basis: 30%;
+   box-sizing: border-box;
+   padding-top: 0em;
+   margin-top: 5vh;
+ 
+  }
+
+  /* Forms */
+
+.form-section {
+    clear: left;
+    background: url("../ms1git_dir/assets/imgs/alesia-kazantceva-Ob1grL3RBvI-unsplash.jpg" ) no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    margin: 0;
+    opacity: 1.5;
+    
+    margin-top: 96px;
+    width: 100%;
+    justify-content: center; 
+  }
+
+  .signUp-form {
+    margin-top: 150px;
+    color: #fff;
+    background-color: rgba(22, 21, 21, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 10px;
+    padding: 25px;
+    padding-right: 3em;
+    margin-right: 2em;
+    
+  }
+
+  
+  .signUp-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  }
+  
+  .txtInput{
+  background-color: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  }
+  .txtInput:hover{
+  border-color: #400913;
+  }
+  
+  .join-button{
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #6ba612;
+  color: #fafafa;
+  display: block;
+  box-shadow: 5px 5px 5px rgba(80, 78, 78, 0.6);
+  }
+  
+  .join-button:hover{
+  background-color: #400913;
+  color: #6ba612;
+  }
+
+  i {
+    color: #400913;
+    text-transform: uppercase;
+    letter-spacing: 38px;
+}
+
+ 
+ /* Service Promise */
+
+ 
+
+ .ser-prom-cont {
+     position: relative;
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: -250px;
+     
+    
+ }
+
+ .ser-prom-cont::before {
+     content: "";
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     height: 400px;
+     z-index: 1;
+     background: linear-gradient(to top,#111,transparent);
+    
+}
+
+ .ser-prom-cont .club-ser {
+     position: relative;
+     max-width: 960px;
+     text-align: center;
+     z-index: 1;
+
+ }
+
+ .ser-prom-cont .club-tours .ser-head p {
+     color: #1a0808;
+     font-size: 2em;
+     font-weight: 400;
+ }
+ 
+ 
+ .ser-prom-img {
+     position: absolute;
+     top: 0;
+     left: -0.5rem;
+     right: 1rem;
+     width: 100%;
+     height: 70%;
+     object-fit: cover;
+     opacity: 0.4; 
+     display: absolute;
+     margin: -20px -15px -550px 7px;
+ }
+
+ .btn-one {
+     position: relative;
+     display: inline-block;
+     margin-top: 30px;
+     padding: 10px 30px;
+     background: #400c07;
+     text-decoration: none;
+     color: white;
+ }
+
+ .ser-spn {
+     color: #fff;
+
+ }
+
+    /* Header and footer ------------------------*/
+
+
+/*header {
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0px;
+  padding-top: 0;
+}
+*/
+
+
+header, footer {
+    background-color: rgb(163,151,89);
+    color: #333;
+}
+
+     /* Header ------------------------*/
+    
+    
+  /*header h1, header h2 {
+  color: white;
+  margin: 20px;
+  }*/
+
+  h1 {
+    font-size: 30px;
+    padding-top: 100px;
+
+  }
+
+   /* Footer ------------------------*/
+     
+footer {
+    text-align: center;
+    background-color: #789597;
+    margin-right: 0;
+    height: 260px;
+    padding-top: 0px;
+    margin-top: -3em;
+}
+
+footer ul {
+    width: 670px;
+    padding: 5px;
+    margin: 2px auto 2px auto;
+    text-align: center;
+    padding-right: 160px;
+}
+
+footer li {
+    display: inline;
+    margin: 0px 6px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #400c07;
+    text-decoration: none;
+}
+
+/* Tours */
+
+.cont-tours
+ {
+  background: rgb(207,213,212);
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.cont-main-txt {
+  padding-bottom: -10em;
+  margin-bottom: 1em;
+  margin-top: 5em;
+}
+
+blockquote {
+  float: right;
+  width: 285px;
+  font-size: 95%;
+  font-style: italic;
+  font-family:  'Montserrat', sans-serif;;
+  margin: -10px 0px 40px 0px;
+  padding: 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.cont-tours img .align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.cont-tours img .align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.cont-tours img .align-right {
+  float: right;
+  margin-left: 10px;
+}
+
+.cont-tours img .align-left {
+  float: left;
+  margin-right: 10px;
+}
+
+.cont-tours img {
+  width: 550px;
+}
+
+
+
+
+
+/* Media Q ------------------------*/
+
+
+@media screen and (max-width: 1366px ) {
+    #main-img img{
+        column-count:2;
+        width: 100%;
+        height: 300px;
+        width: 30%;
+        background-color: 1px solid rgba(207, 213, 212);
+        }   
+
+      
+} 
+
+ 
+@media screen and (min-width:943px) {
+    .testimonials {
+     display: flex;
+     justify-content: space-between;
+    
+    }
+   
+    .signup-form {
+      left: 68em;
+    }
+
+    .cont-tours {
+      font-size: 18px;
+
+    }
+    img{
+      
+      width: 100%;
+      height: 350px;
+      width: 550px;
+      background-color: 1px solid rgba(207, 213, 212);
+      } 
+}
+
+
+
+footer i {
+  margin-right: -10px;
+}
+.copy-rgt-info {
+  margin-right: 30px;
+}
+
+
+  <main>
+        <section class="hero-sec">
+            <div class="content-wrap">
+                <div id="main-img">
+                    <div class="section">
+                        <a href="contact.html" class="btn-one"><span class="serHead-btn">Book Tours</span></a>
+                        
+                    </div>
+                </div>
+               </div>
+        </section>
+
+
+.abt-main-info {
+  padding-top: 1rem;
+  text-align: center;
+ 
+  
+}
+
+.abt-main{
+  padding-top: 8rem;
+}
+.abt.info
+.abt.txt
+.abt-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 3rem 2rem;
+  box-shadow: 0 15px 20px solid rgba(0, 0, 0, 0.2);
+}
+
+.abt-content .abt-title {
+  padding: 2rem 0;
+}
+
+.abt-content .btn-cont{
+  padding: 7rem 2rem;
+  background: #789597;
+  margin: 5rem;
+}
+
+.abt-info .abt-span {
+  display: block;
+}
+
+.abt-span {
+  text-align: center;
+}
+
+.abt-content {
+  border: 2px solid #789597;
+  text-align: center;
+  display: absolute;
+  margin: 2% 0 6% 0;
+}
+
+.abt-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  float: right;
+  margin: 3% 13% 10% -2%;
+  overflow: auto;
+  width: 32%;
+ 
+ } 
+
+ .abt-wrap {
+   margin: 0 5vw;
+ }
+ .staff-img {
+   width: 100%;
+
+ }
+ .abt-main-info .abt-main-info {
+  text-align: center;
+  padding: 0 -10px 0 -20px;
+  overflow: auto;
+  max-width: 600px;
+}
+}
+
+.abt-main h2 {
+  text-align: center;
+  overflow: auto;
+}
+
+  <section class="content-wrap">
+        <div class="contact-site">
+            <div class="contact-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2148.3248958320046!2d6.1531608493252765!3d62.47406749653431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4616da40a5f6c7a3%3A0x651608cc7deda899!2sMILK%20Bar%20%26%20Lounge!5e0!3m2!1sen!2sno!4v1585746771542!5m2!1sen!2sno"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+            <div class="contact-site">
+                <div class="contact-info">
+                    <div class="contact-det">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p> ReCycle Club</p>
+                    </div>
+                    <div class="contact-det">
+                        <i class="fas fa-phone"></i>
+                        <p> +47-555555 </p>
+                    </div>
+                    <div class="contact-det">
+                        <i class="fas fa-envelope"></i>
+                        <p> mail@recycle.com </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-site">
+                <div class="open-hrs">
+                    <h2>Opening hours</h2>
+                    <ul class="hrs-info">
+                        <li>Mon: 08:00 – 22:00 </li>
+                        <li>Tue: 08:00 – 22:00</li>
+                        <li>Wed: 08:00 – 22:00</li>
+                        <li>Thu: 08:00 – 22:00</li>
+                        <li>Fri: 08:00 – 22:00</li>
+                        <li>Sat: 09:00 – 21:00</li>
+                        <li>Sun: 10:00 – 20:00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
