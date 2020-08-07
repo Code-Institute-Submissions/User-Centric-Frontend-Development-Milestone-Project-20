@@ -1,8 +1,16 @@
-# [logo]: img src="../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg"  "Logo Title Text 2" An Eco-friendly cycling club.
+[logo]: img src="../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg"  "Logo Title Text 2" 
+# An Eco-friendly cycling club.
 
-One or two paragraphs providing an overview of your project.
+Introduction 
+This is a project to design a website for a cycling club. The fact that it is trying to encourage eco-friendly cycling. The requirements for the site was looked into and used to come up with user stories, which were created to direct the direction of the tasks for the development process. A gantt chart and site map could be a nice possible process to map the design process. However it was not possible at this stage due to the limited time the designer had. The purpose is to attract interest and more visitors to use the services and contribute on making the activities used by users inland and outland. The site has 4 pages: 
+Home Page: the landing page gives the visitor access and link to important pages in the website. • About Us Page : gives information about the history of the club, employees and their experience. • Tour Page: shows the target clients or persona of the visitors. Also tour options offered by club, for visitors to be aware of the services. • Contact Us Page: a form to contact us for a booking or be a member. The location of the club also is shown in this page.
 
-Essentially, this part is your sales pitch.
+First I followed James Williamson, 2012  advice on not just focusing on coding but to also consider other stages like typography, color choice and the structure of the webpages should be right, even though the time limited did not allow me to do all the processes. I followed his model.
+
+
+
+The main processes were observed. Google search was used for research to find similar websites for business doing offering the same services. These included sites like Alaskabike, baliecocycling. To gather other ideas on how I can design the structure of my webpage I looked into sites like adobe creation cloud, dribbble.com and behance.net for design ideas.
+
  
 ## UX
  
