@@ -10,7 +10,7 @@ The site has 4 pages:
 - Tour Page: shows the target clients or persona of the visitors. Also tour options offered by club, for visitors to be aware of the services.
 - Contact Us Page: a form to contact us for a booking or be a member. The location of the club also is shown in this page.
 
-First I followed (https://www.linkedin.com/learning/css-page-layouts-2012/page-design-workflow?u=43268076 James Williamson, 2012)  advice on not just focusing on coding but to also consider other stages like typography, color choice and the structure of the webpages should be right, even though the time did not allow me to do all the processes. The aim was to follow his model.
+First I followed [James Williamson, 2012](https://www.linkedin.com/learning/css-page-layouts-2012/page-design-workflow?u=43268076) advice on not just focusing on coding but to also consider other stages like typography, color choice and the structure of the webpages should be right, even though the time did not allow me to do all the processes. The aim was to follow his model.
 
 
  
