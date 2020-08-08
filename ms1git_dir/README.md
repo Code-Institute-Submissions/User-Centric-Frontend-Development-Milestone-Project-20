@@ -197,19 +197,19 @@ Acceptance tests hav been done on the pages to ensure that automated scenarios a
 
 1. Home Page:
 
-   1. Getting on the "Index.html" page
+   1. Getting on the `Index.html` page
    2. Try to click the menu items and footer items.
    3. Check if the color changes to show you which page you in when you hover.
    4. Click the items to see if the color changes and if the links are directing you to relevant pages.
 
 2. About Page:
 
-   1. Getting to the "About Us" page
+   1. Getting to the `aboutus.html` page
    2. Try to click the links to book employee direct there. Saves user time of navigation around pages.
    3. Click the book button to see if it will direct you to book successfully.
 
 3. Contact Us page:
-   1. Getting to the "Contact Us" page
+   1. Getting to the `contactus.html` page
    2. Try to submit the empty form and verify that an error message about the required fields appears and that when you click the input the color changes.
    3. Try to submit the form with an no name or missing one of the input entries and verify that a relevant error message appears
    4. Try to submit the form with all inputs valid and verify that a success message appears.
