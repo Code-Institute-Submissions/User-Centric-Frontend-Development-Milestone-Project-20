@@ -6,6 +6,8 @@
 ## Demo responsive image display
 
 
+![Logo](../ms1git_dir/assets/imgs/Design Model  James Williamson, 2012 .png "Logo Image")
+
 This is a demo to show how the site is responsive across different browsers [Link](https://www.linkedin.com/learning/css-page-layouts-2012/page-design-workflow?u=43268076)
 
 ## Introduction 
