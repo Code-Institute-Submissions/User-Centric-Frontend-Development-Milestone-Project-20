@@ -1,5 +1,5 @@
 
-![alt text](../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg "Logo Image")
+![Logo](../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg "Logo Image")
 
 # An Eco-friendly cycling club.
 
