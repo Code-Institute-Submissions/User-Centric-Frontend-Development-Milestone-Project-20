@@ -193,15 +193,21 @@ body {
 /* hero section */
 
 .hero-sec {
-  background-image: url("../assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
+  background: url("../assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
   background-size: cover;
   height: 700px;
   width: 100%;
+  margin-top: 5px;
+  background-attachment: cover;
+  display: flex;
+  padding-top: 400px;
+
 
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
   font-weight: bolder;
+  padding-top: 0;
 }
 
 .hero-nav-arr {
@@ -275,7 +281,7 @@ h3 {
   background: #5f8f18;
   text-decoration: none;
   border-radius: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.2);
+
 }
 
 .main-cont h1 span {
@@ -321,7 +327,7 @@ h3 {
 
 .form-section {
 
-  background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back-vNdhfAMShyY-unsplash.jpg") no-repeat center center;
+  background: url("../assets/imgs/fat-lad-at-the-back--B0mRhMJ7_Y-unsplash.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -398,7 +404,7 @@ i {
   padding-bottom: 0;
   background-color: rgba(207, 213, 212);
   box-sizing: border-box;
-  box-shadow: 20px 20px 20px solid rgba(0, 0, 0, 0.7)
+  box-shadow: solid 20px 20px 20px rgba(0, 0, 0, 0.7)
 }
 
 .contact-det {
@@ -679,12 +685,17 @@ blockquote {
   height: 300px;
   border-radius: 5%;
   box-sizing: border-box;
-  box-shadow: 10px 5px 5px solid rgba(0, 0, 0, 0.9)
+  box-shadow: solid 10px 5px 5px rgba(0, 0, 0, 0.9)
 }
 
 /* Media */
 
 @media screen and (min-width:943px) {
+  .main-cont {
+    margin-left: 18rem;
+    text-align: center;
+  }
+
   .testimonials {
     display: flex;
     justify-content: space-between;
