@@ -4,7 +4,7 @@
 
 ## Demo responsive image display
 
-<img src="../ms1git_dir/assets/imgs/IAM resp img.png" alt="alt text" width="200"/>
+<img src="../ms1git_dir/assets/imgs/IAM resp img.png" alt="responsive viewer" width="550"/>
 
 The main processes were observed. Google search was used for research to find similar websites for business doing offering the same services. These included sites like Alaskabike [Alaskabike](https://www.alaskabike.com/home.html?gclid=CjwKCAjwguzzBRBiEiwAgU0FTzGm5_JVcN2WUotdB5yS5zzujKWptGE_MZ0dL6c_0UGh5M6Yf1-c8hoCf8UQAvD_BwE), [baliecocycling](https://baliecocycling.com/cycling-tour/). To gather other ideas on how I can design the structure of my webpage I looked into sites like adobe creation cloud, [dribbble.com](https://dribbble.com) and [behance.net](https://behance.net) for design ideas.
 
@@ -16,7 +16,7 @@ This is a project to design a website for a cycling club. The fact that it is tr
 
 Followed a model by [James Williamson, 2012](http://kayalvaer.no/ms1git_dir/index.html) which advice on not just focusing on coding but to also consider other stages like typography, color choice and the structure of the webpages should be right, even though the time did not allow me to do all the processes. The aim was to follow his model.
 
-<img src="../ms1git_dir/assets/imgs/Design Model  James Williamson, 2012 .png" alt="alt text" width="200"/>
+<img src="../ms1git_dir/assets/imgs/Design Model  James Williamson, 2012 .png" alt="Model img" width="450"/>
 
 ## UX
 
@@ -93,7 +93,7 @@ To ensure that my design is SEO optimized I used search engines like [Google tre
 Users with social needs were considered during the design of the website. Avoiding text on pictures and that also influenced my color choice. The idea was to make my layout as simple as possible without compromising important information and with less text.
 For this website I used the [achecker site](https://achecker.ca/checker/index.php) to check the accessibility review of the site and it scored Level 92% AA with 4 errors. According to [Desarrollweb](desarrollweb.dlsi.ua.es) a level of AA means the site is most compliant.
 
-<img src="../ms1git_dir/assets/imgs/test score 92%.png" alt="alt text" width="200"/>
+<img src="../ms1git_dir/assets/imgs/test score 92%.png" alt="test score" width="300"/>
 
 ## Virsual characteristics
 
@@ -181,7 +181,7 @@ Loading perfomance of the site was tested using [Pingdom.com](https://my.pingdom
 
 This was done to ensure the site can be used by all users without any difficulties related to disabilities. And four problems were reported. Some I was able to resolve some will be resolved soon in the future.
 
-<img src="../ms1git_dir/assets/imgs/Accessibility Review.png" alt="alt text" width="200"/>
+<img src="../ms1git_dir/assets/imgs/Accessibility Review.png" alt="accessibility review" width="450"/>
 
 #### Responsiveness Test
 
@@ -190,7 +190,7 @@ To test the responsiveness of the side across browsers I used
 [MobiReady](https://ready.mobi) - To test website performance on mobile devicesUsed for debugging.
 [MobiReady results](file:///Users/kaykeatlaretsealvaer/Desktop/codeins_ms1/ms1git_dir/assets/imgs/mobiReady%20results.webarchive)
 
-<img src="../ms1git_dir/assets/imgs/mobiReady results.webarchive" alt="alt text" width="200"/>
+<img src="../ms1git_dir/assets/imgs/mobiReady results.webarchive" alt="mobiReady results" width="450"/>
 
 [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - For editing pages and diagnosing issues via Google Chrome browse
 
