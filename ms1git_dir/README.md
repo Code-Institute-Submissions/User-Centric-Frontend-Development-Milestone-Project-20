@@ -24,7 +24,9 @@ Followed a model by [James Williamson, 2012](http://kayalvaer.no/ms1git_dir/inde
 
 The persona for the website is targeting cyclists living in the area looking for others with same interest, families looking for something to do, visitors of the area looking for cheaper way of travelling around without harming the environment and with the guide of someone who knows the area. Eco-friendly advocates are also targets.
 
-#### Motivation -The motivation behind the services that Re-Cycle club offer aims to achieve the following;
+#### Motivation
+
+The motivation behind the services that Re-Cycle club offer aims to achieve the following;
 
 - Diversify their services
 - Support the community by encouraging social connections through - - arranging family cycling tours.
@@ -32,7 +34,9 @@ The persona for the website is targeting cyclists living in the area looking for
 - Promote cycling instead of driving.
 - Offer quality service.
 
-#### Desire - Customers want from the website;
+#### Desire
+
+Customers want from the website;
 
 - See the diverse services offered by ReCycle
 - Make users be aware of club employees competencies.
