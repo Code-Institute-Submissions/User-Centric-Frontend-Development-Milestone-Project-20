@@ -1,4 +1,7 @@
 [logo]: img src="../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg"  "Logo Title Text 2" 
+
+![alt text](../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg "Logo Title Text 1")
+
 # An Eco-friendly cycling club.
 
 ## Demo responsive image display
