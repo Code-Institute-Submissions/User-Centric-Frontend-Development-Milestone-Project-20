@@ -193,14 +193,11 @@ body {
 /* hero section */
 
 .hero-sec {
-  background: url("../ms1git_dir/assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
+  background-image: url("../assets/imgs/alvin-balemesa-pTiZF8QRIu0-unsplash.jpg") no-repeat center center;
   background-size: cover;
-  height: 100%;
+  height: 700px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  opacity: 0.9;
-  background-position: initial;
+
   animation-name: hero-zoom;
   animation-duration: 5s;
   animation-fill-mode: forwards;
