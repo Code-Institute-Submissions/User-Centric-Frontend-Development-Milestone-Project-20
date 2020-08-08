@@ -239,6 +239,8 @@ The website is deployed on github and can be viewed on GitHub Pages (Link) [Link
 
 Am thankful to you tube contributors like [Robert Bradford](https://www.youtube.com/watch?v=dsZ9LytmsEM), New PragmaBc [New Pragmatic](https://www.youtube.com/watch?v=JbFJWHWChJE&t=15s), [Dev Ed](https://www.youtube.com/watch?v=FK4YusHIIj0&t=140s)for inspiring and helpful tips on making my UX design with a new program I have been wishing to try [Figma](https://www.figma.com/files/recent).
 
+Credits to [Kim T Navigation tips](https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99) for providing a responsive navigation which was used in this project, even though customised for this project.
+
 ### Media
 
 [Unsplash](https://unsplash.com:photosareacourtesyofbothunsplash) - For quality free downloadable images.
