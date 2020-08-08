@@ -8,7 +8,6 @@
 ![Logo](../ms1git_dir/assets/imgs/IAM resp img.png img.png "I Am Responsive")
 
 ![Logo](https://github.com/Kayalvaer/User-Centric-Frontend-Development-Milestone-Project-1/master/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
-![Logo](https://github.com/Kayalvaer/master/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
 
 This is a demo to show how the site is responsive across different browsers [Link](https://www.linkedin.com/learning/css-page-layouts-2012/page-design-workflow?u=43268076)
 
@@ -103,7 +102,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
-=======
+- # I received inspiration for this project from X
 
->>>>>>> f09d9d1179daf528809c81fcb7cb797f059f08c1
+> > > > > > > f09d9d1179daf528809c81fcb7cb797f059f08c1
