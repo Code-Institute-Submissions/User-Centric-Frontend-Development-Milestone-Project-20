@@ -4,7 +4,8 @@
 
 ## Demo responsive image display
 
-![Logo]( https://github.com/adam-p/markdown-here/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
+![Logo](../ms1git_dir/assets/imgs/IAM resp img.png img.png "I Am Responsive")
+
 ![Logo](https://github.com/Kayalvaer/User-Centric-Frontend-Development-Milestone-Project-1/master/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
 ![Logo](https://github.com/Kayalvaer/master/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
 
