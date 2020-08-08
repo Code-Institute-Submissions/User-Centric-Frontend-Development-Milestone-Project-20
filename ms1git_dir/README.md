@@ -6,7 +6,9 @@
 ## Demo responsive image display
 
 
-![Logo](../ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
+![Logo]( https://github.com/adam-p/markdown-here/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
+![Logo](https://github.com/Kayalvaer/User-Centric-Frontend-Development-Milestone-Project-1/edit/master/ms1git_dir/assets/imgs/IAM resp img.png "I Am Responsive")
+
 
 This is a demo to show how the site is responsive across different browsers [Link](https://www.linkedin.com/learning/css-page-layouts-2012/page-design-workflow?u=43268076)
 
