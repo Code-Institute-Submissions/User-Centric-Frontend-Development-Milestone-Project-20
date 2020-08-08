@@ -6,6 +6,8 @@
 
 ![Logo](../ms1git_dir/assets/imgs/IAM resp img.png img.png "I Am Responsive")
 
+<img src="../ms1git_dir/assets/imgs/IAM resp img.png img.png">
+
 The main processes were observed. Google search was used for research to find similar websites for business doing offering the same services. These included sites like Alaskabike [Alaskabike](https://www.alaskabike.com/home.html?gclid=CjwKCAjwguzzBRBiEiwAgU0FTzGm5_JVcN2WUotdB5yS5zzujKWptGE_MZ0dL6c_0UGh5M6Yf1-c8hoCf8UQAvD_BwE), [baliecocycling](https://baliecocycling.com/cycling-tour/). To gather other ideas on how I can design the structure of my webpage I looked into sites like adobe creation cloud, [dribbble.com](https://dribbble.com) and [behance.net](https://behance.net) for design ideas.
 
 This is a demo to show how the site is responsive across different browsers [Link](https://www.linkedin.com/learning/css-page-layouts-2012/page-design-workflow?u=43268076)
