@@ -690,7 +690,7 @@ blockquote {
 
 /* Media */
 
-@media screen and (min-width:943px) {
+@media screen and (min-width:1024px) {
   .main-cont {
     margin-left: 18rem;
     text-align: center;
