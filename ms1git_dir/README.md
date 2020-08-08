@@ -173,21 +173,20 @@ Testing was done on different platforms to ensure proper display across differen
 
 Loading perfomance of the site was tested using [Pingdom.com](https://my.pingdom.com/app/3/home) and the page was loading at 3.83s as shown below.
 
-![Logo](../ms1git_dir/assets/imgs/Load time 3.83.png "Logo Image")
+![Load time](../ms1git_dir/assets/imgs/Load time 3.83.png "Logo Image")
 
 #### Accessibility review Test
 
 This was done to ensure the site can be used by all users without any difficulties related to disabilities. And four problems were reported. Some I was able to resolve some will be resolved soon in the future.
 
-![Logo](../ms1git_dir/assets/imgs/Accessibility Review.png "Logo Image")
+![Accessibility review](../ms1git_dir/assets/imgs/Accessibility Review.png "Logo Image")
 
 #### Accessibility review Test
 
 To test the responsiveness of the side across browsers I used
 
 [MobiReady](https://ready.mobi) - To test website performance on mobile devicesUsed for debugging.
-
-![Logo](../ms1git_dir/assets/imgs/mobiReady results.webarchive "Logo Image")
+[MobiReady results](file:///Users/kaykeatlaretsealvaer/Desktop/codeins_ms1/ms1git_dir/assets/imgs/mobiReady%20results.webarchive)
 
 [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - For editing pages and diagnosing issues via Google Chrome browse
 
