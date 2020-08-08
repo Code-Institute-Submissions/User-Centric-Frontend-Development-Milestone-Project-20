@@ -97,9 +97,7 @@ Taking into consideration the important of typography, color choices and blendin
 
 #### Color:
 
-As mentioned I used the hero image to capture my color palette on Adobe capture and I came up with the colors which I was comfortable with and incorporated in my design. They represent a variant, modern feel to our site to attract the target visitors (figure 1.2 below). The colors are a mixture of bright and natural colors and they blend good together for the site. However I had to adjust the brightness of the colors during development and not all colors were used but swapped with stronger related colours like #5f8f18, #400c07 and #891E00. Used [mycolor.space](https://mycolor.space/?hex=#57C2C5&sub=1) to match my color pallette.
-
-![Logo](../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg "Logo Image")
+As mentioned I used the hero image to capture my color palette on Adobe capture and I came up with the colors which I was comfortable with and incorporated in my design. They represent a variant, modern feel to our site to attract the target visitors (figure 1.2 below). The colors are a mixture of bright and natural colors and they blend good together for the site. However I had to adjust the brightness of the colors during development and not all colors were used but swapped with stronger related colours like #5f8f18, #400c07 and #891E00. Used [mycolor.space](https://mycolor.space/?hex=#57C2C5&sub=1).
 
 The goal is to maintain trust from the users so that they can buy the products and recommend to others. The discovery was that many competitors used blue, white and sky colour. The color blue represent intelligence, communication, trust, quality and the lime I included is for trust and security, then white for efficiency (David kadavys, 2011).
 
