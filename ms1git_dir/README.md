@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Logo](../ms1git_dir/assets/imgs/onlinelogomaker-032620-1341-4890.svg "Logo Image")
 
 # An Eco-friendly cycling club.
@@ -103,3 +104,6 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration for this project from X
+=======
+
+>>>>>>> f09d9d1179daf528809c81fcb7cb797f059f08c1
