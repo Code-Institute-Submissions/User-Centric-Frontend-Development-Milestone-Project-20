@@ -4,7 +4,7 @@
 
 ## Demo responsive image display
 
-<img src="../ms1git_dir/assets/imgs/IAM resp img.png" alt="responsive viewer" width="550"/>
+<img src="../ms1git_dir/assets/imgs/IAM resp img.png" alt="responsive viewer" width="700" length="400"/>
 
 The main processes were observed. Google search was used for research to find similar websites for business doing offering the same services. These included sites like Alaskabike [Alaskabike](https://www.alaskabike.com/home.html?gclid=CjwKCAjwguzzBRBiEiwAgU0FTzGm5_JVcN2WUotdB5yS5zzujKWptGE_MZ0dL6c_0UGh5M6Yf1-c8hoCf8UQAvD_BwE), [baliecocycling](https://baliecocycling.com/cycling-tour/). To gather other ideas on how I can design the structure of my webpage I looked into sites like adobe creation cloud, [dribbble.com](https://dribbble.com) and [behance.net](https://behance.net) for design ideas.
 
@@ -189,8 +189,6 @@ To test the responsiveness of the side across browsers I used
 
 [MobiReady](https://ready.mobi) - To test website performance on mobile devicesUsed for debugging.
 [MobiReady results](file:///Users/kaykeatlaretsealvaer/Desktop/codeins_ms1/ms1git_dir/assets/imgs/mobiReady%20results.webarchive)
-
-<img src="../ms1git_dir/assets/imgs/mobiReady results.webarchive" alt="mobiReady results" width="450"/>
 
 [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - For editing pages and diagnosing issues via Google Chrome browse
 
