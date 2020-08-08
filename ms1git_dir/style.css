@@ -327,17 +327,12 @@ h3 {
   background: url("../ms1git_dir/assets/imgs/fat-lad-at-the-back-vNdhfAMShyY-unsplash.jpg") no-repeat center center;
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 80vh;
   width: 100%;
-  margin: 4rem 0.2rem 0 0rem;
-  display: fixed;
-  justify-content: center;
-  opacity: 0.9;
-  padding-top: 10px;
+
 }
 
 .signUp-form {
-  margin-top: 60px;
   color: #fafafa;
   background-color: rgba(22, 21, 21, 0.6);
   position: absolute;
@@ -692,10 +687,21 @@ blockquote {
 
 /* Media */
 
-@media screen and (min-width:870px) {
+@media screen and (min-width:943px) {
   .testimonials {
     display: flex;
     justify-content: space-between;
+  }
+
+  .signUp-form {
+    position: absolute;
+    width: 25%;
+    height: 65%;
+    margin-top: 5%;
+  }
+
+  .cmtInput {
+    width: 30rem;
   }
 
   .txtInput {
@@ -706,7 +712,7 @@ blockquote {
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    padding-top: 5rem;
+
   }
 
   .cmtInput {
@@ -809,9 +815,6 @@ blockquote {
 }
 
 
-
-
-
 /* This covers betwen 480 and 720 */
 /*480 / 16 */
 @media only screen and (min-width:30em) {
@@ -826,22 +829,24 @@ blockquote {
 }
 
 @media(min-width: 280px) {
+
+  .contact-site {
+    padding-top: 2rem;
+
+  }
+
   .signUp-form {
     position: absolute;
     text-align: center;
-    margin-left: 7rem;
-    max-width: 60%;
-    height: 60%;
-    margin-top: 5%;
-    font-size: 90%;
+    margin-left: 4rem;
+    max-width: 75%;
+    padding-top: 4rem;
+    font-size: 100%;
   }
 
   .cmtInput {
     width: 15rem;
-    length: 50%;
   }
-
-
 
   .align-left medium .align-right medium {
     size: 35%;
@@ -855,7 +860,6 @@ blockquote {
 
   img {
     width: 150px;
-
   }
 
   .arrow-fas {
